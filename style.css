@@ -225,7 +225,7 @@ a {
 .main-visual {
   height: 600px;
   width: 100%;
-  background: url(../img/mainvisual.png) no-repeat center center/cover;
+  background: url(https://github.com/sanaemamamoo/company/blob/main/mainvisual.png?raw=true) no-repeat center center/cover;
   position: relative;
   margin-top: 100px;
 }
@@ -504,7 +504,7 @@ a {
   transform: translateY(-50%);
   width: 7px;
   height: 11px;
-  background: url(../img/news-arrow.png) no-repeat center center/contain;
+  background: url(https://github.com/sanaemamamoo/company/blob/main/news-arrow.png?raw=true) no-repeat center center/contain;
 }
 
 .news___more a:hover {
@@ -836,7 +836,7 @@ a {
 .contact-form__input select {
   box-shadow: none;
   border: 1px solid #707070;
-  background: #fff url(../img/select-arrow2.png) no-repeat right 12px center/17px 14px;
+  background: #fff url(https://github.com/sanaemamamoo/company/blob/main/select-arrow2.png?raw=true) no-repeat right 12px center/17px 14px;
   padding: 12px 16px;
   appearance: none;
   border-radius: 0;
@@ -969,7 +969,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background: transparent url(../img/checkbox2.png) no-repeat center center/contain;
+  background: transparent url(https://github.com/sanaemamamoo/company/blob/main/checkbox2.png?raw=true) no-repeat center center/contain;
   display: none;
 }
 
