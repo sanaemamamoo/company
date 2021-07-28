@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /><!--CDN圧縮minの方を使用 jqueryをプラグイン-->
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner inner">
+            <h1 class="header__logo"><a href="/"><img src="./img/logo@2x.png" alt="The Company"></a></h1>
+            <ul class="header__nav">
+                <li><a href="#card" class="is-active">Card</a></li><!--対象のidに対して記載をする-->
+                <li><a href="#news">News</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--ドロワー-->
+    <div class="drawer-icon"><!--ハンバーガーのアイコン・バツ部分-->
+        <div class="drawer-icon__bars">
+          <div class="drawer-icon__bar1"></div>
+          <div class="drawer-icon__bar2"></div>
+          <div class="drawer-icon__bar3"></div>
+        </div>
+    </div>
+
+    <div class="drawer-content"><!--開いたときのコンテンツ部分-->
+        <div class="drawer-content_items">
+            <div class="drawer-content_item"><a href="">Card</a></div>
+            <div class="drawer-content_item"><a href="">News</a></div>
+            <div class="drawer-content_item"><a href="">Price</a></div>
+            <div class="drawer-content_item"><a href="">Access</a></div>
+            <div class="drawer-content_item"><a href="">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="drawer-background"></div><!--開いたときの背景部分-->
+
+
+    <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="main-visual">
+            <div class="main-visual__content">
+                <div class="main-visual__title">一番伝えたいことを書く</div>
+                <div class="main-visual__lead">リードリードリード</div>
+                <div class="main-visual__button"><a href="#contact">お問い合わせ</a></div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="main-visual">
+            <div class="main-visual__content">
+                <div class="main-visual__title">一番伝えたいことを書く2</div>
+                <div class="main-visual__lead">リードリードリード</div>
+                <div class="main-visual__button"><a href="#contact">お問い合わせ</a></div>
+            </div>
+       </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="main-visual">
+            <div class="main-visual__content">
+                <div class="main-visual__title">一番伝えたいことを書く3</div>
+                <div class="main-visual__lead">リードリードリード</div>
+                <div class="main-visual__button"><a href="#contact">お問い合わせ</a></div>
+            </div>
+       </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+    <section id="card" class="card section"><!--遷移先のセクションにidを付与してあげる-->
+      <div class="card__inner inner">
+          <!-- /.card__inner inner -->
+        <h2 class="card__head section-title">Card</h2>
+            <div class="card__items">
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+                <div class="card__item wow fadeInUp">
+                    <div class="card__img"><img src="./img/card-img.png" alt="The Company"></div>
+                    <div class="card__title">タイトルタイトル</div>
+                    <div class="card__text">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                </div>
+            </div>
+      </div>
+    </section>
+    <section id="news" class="news section">
+     <div class="news__inner inner">
+         <h2 class="news__head section-title">News</h2>
+         <div class="news__items">
+             <div class="news__item">
+                 <div class="news__meta"><!--metaタグで日付とラベルをかこう-->
+                     <div class="news__date">2019-01-30</div>
+                     <div class="news__label"><a href="">ラベル１</a></div>             
+                 </div>
+                 <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+             </div>
+             <div class="news__item">
+                 <div class="news__meta"><!--metaタグで日付とラベルをかこう-->
+                     <div class="news__date">2019-01-30</div>
+                     <div class="news__label"><a href="" class="is-blue">ラベル2</a></div>             
+                 </div>
+                 <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+             </div>
+
+             <div class="news__item">
+                 <div class="news__meta"><!--metaタグで日付とラベルをかこう-->
+                     <div class="news__date">2019-01-30</div>
+                     <div class="news__label"><a href="" class="is-red">ラベル3</a></div>             
+                 </div>
+                 <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+             </div>
+             
+             <div class="news__item">
+                 <div class="news__meta"><!--metaタグで日付とラベルをかこう-->
+                     <div class="news__date">2019-01-30</div>
+                     <div class="news__label"><a href="">ラベル4</a></div>             
+                 </div>
+                 <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+             </div>
+             <div class="news__item">
+                 <div class="news__meta"><!--metaタグで日付とラベルをかこう-->
+                     <div class="news__date">2019-01-30</div>
+                     <div class="news__label"><a href="">ラベル5</a></div>             
+                 </div>
+                 <div class="news__title"><a href="">ニュースニュースニュースニュースニュースニュースニュースニュース</a></div>
+             </div>
+         </div>
+         <div class="news___more"><a href="">more</a></div>
+     </div>
+    </section>
+    <section id="price" class="price section">
+        <div class="price__inner inner">
+            <h2 class="price__head section-title">Price</h2>
+            <div class="price__content">
+             <div class="price__image"><img src="./img/price-img.png" alt="The Company"></div>
+             <div class="price__table">
+                 <table class="table">
+                     <tr>
+                         <th></th>
+                         <th>column1</th>
+                         <th>column2</th>
+                     </tr>
+                     <tr>
+                         <th>row1</th>
+                         <td>100円</td>
+                         <td>100円</td>
+                     </tr>
+                     <tr>
+                        <th>row2</th>
+                        <td>6,000円</td>
+                        <td>0円</td>
+                    </tr>
+                    <tr>
+                        <th>row3</th>
+                        <td><strong>6,000円</strong><span>※今だけ半額</span></td>
+                        <td>0円</td>
+                    </tr>
+                    <tr>
+                        <th>row4</th>
+                        <td>100円</td>
+                        <td>100円</td>
+                    </tr>
+                 </table>
+                 <div class="price__attention"><a href="">※目安なので詳しくはお問い合わせください。</a></div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <section id="access" class="access section">
+        <div class="access__inner inner">
+            <h2 class="access__head section-title">Access</h2>
+            <div class="access__map">
+                <div class="iframe-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12958.633092766275!2d139.80187102853836!3d35.71002605631203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1616076677675!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allow-fullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+           <dl class="access__info">
+               <!--横並びできるようにdivで囲っておく-->
+               <div class="access__info-row">
+                    <dt>住所</dt><!--見出し-->
+                    <dd>ほげほげほげのほげの場所</dd><!--見出しに対する情報-->
+               </div>
+               <div class="access__info-row">
+                <dt>アクセス</dt><!--見出し-->
+                <dd>〇〇駅から右に５分</dd><!--見出しに対する情報-->
+               </div>
+           </dl>
+           <div class="access__button"><a href="">Googleマップで見る</a></div>
+        </div>
+    </section>
+    <section id="contact" class="contact section">
+        <div class="contact__inner inner">
+            <h2 class="contact__head section-title">Contact</h2>
+            <div class="contact__form">
+                <form action="/" class="contact-form">
+                  <dl class="contact-form__dl">
+                      <div class="contact-form__row">
+                          <dt class="contact-form__label"><label for="your-name" class="is-required">お名前</label></dt>
+                          <dd class="contact-form__input"><input id="your-name" type="text" placeholder="山田　太郎"></dd>
+                          <!-- labelで紐付けをしておくと「お名前」を押した時にカーソルがinputのところに当たる-->
+                      </div>
+                 
+                     <div class="contact-form__row">
+                        <dt class="contact-form__label"><label for="your-email" class="is-required">メールアドレス</label></dt>
+                        <dd class="contact-form__input"><input id="your-email" type="email" placeholder="text@example.com"></dd>
+                        <!-- labelで紐付けをしておくと「お名前」を押した時にカーソルがinputのところに当たる-->
+                     </div>
+                     <div class="contact-form__row">
+                        <dt class="contact-form__label"><label for="your-kind">お問い合わせ種別</label></dt>
+                        <dd class="contact-form__input">
+                            <select name="your-kind" id="your-kind">
+                                <option value="">セレクト１</option>
+                                <option value="">セレクト2</option>
+                                <option value="">セレクト3</option>
+                            </select>
+                        </dd>
+                    </div>
+                    <div class="contact-form__row">
+                        <dt class="contact-form__label"><label for="your-message">お問い合わせ内容</label></dt>
+                        <dd class="contact-form__input">
+                            <textarea name="your-message" id="your-message" placeholder="お問い合わせを入力してください"></textarea>
+                        </dd>
+                    </div>
+                 </dl>
+                 
+                 <div class="contact-form__radio">
+                     <label><input type="radio" name="your-radio" checked ><span>ラジオ１</span></label><!--最初にチェックしいているのを示すchecked,押すと切り替わる-->
+                     <label><input type="radio" name="your-radio"><span>ラジオ2</span></label>
+                     <label><input type="radio" name="your-radio"><span>ラジオ3</span></label>
+                 </div>
+                <div class="contact-form__check">
+                <label><input type="checkbox"><span><a href="" class="js-open-button" data-target=".target-modal">プライバシーポリシー</a> に合意する</span></label> 
+                <!--ラベルで囲むことで文字をクリックした時にチェックが入るようになる-->
+                </div>
+                <div class="contact-form__button">
+                    <input type="submit" value="送信する">
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-contact target-modal">
+      <div class="modal-contact__head">プライバシーポリシー</div>
+      <div class="modal-contact__content">
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+          
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+          
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+          
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+          
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+          
+          <div class="modal-contact__sub-head">サブタイトル</div>
+          <div class="modal-contact__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      </div>
+
+      <div class="modal-contact__button"><a class="js-close-button" href="" data-target=".target-modal">閉じる</a></div><!--data属性を使ってdataっていう接頭辞に対して任意の値を決めることができる-->
+      <div class="modal-contact__icon"><a class="js-close-button" href="" data-target=".target-modal"><img src="./img/xicon.jpeg" alt="閉じるアイコン"></a></div>
+      <!-- 閉じる対象って意味でdata-target で対象を入れてあげる-->
+    </div>
+    <!-- モーダル背景 -->
+    <div class="modal-contact-background target-modal"></div>
+    <!-- 閉じる対象としてtarget-modal-->
+
+    <footer class="footer">
+        <div class="footer__inner inner">
+            <div class="footer__content">
+                <div class="footer__left">
+                    <div class="footer__logo"><a href=""><img src="./img/logo@2x.png" alt="The Company"></a></div>
+                    <div class="footer__address">住所：○○○○○○○○○○○○</div>
+                    <div class="footer__tel">TEL：0000-00-0000</div>
+                </div>
+                <div class="footer__center">
+                    <ul class="footer__nav">
+                        <li><a href="">Card</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Price</a></li>
+                        <li><a href="">Access</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__right">
+                    <ul class="footer__sns">
+                        <li><a href="" target="_blank"><img src="./img/twitter@2x.png" alt="The Company"></a></li>
+                        <li><a href="" target="_blank"><img src="./img/facebook@2x.png" alt="The Company"></a></li>
+                        <li><a href="" target="_blank"><img src="./img/instagram@2x.png" alt="The Company"></a></li>
+                          <!-- 外部リンクは基本新しいタグで開くようにしておくと親切！ -->
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">Copyright &copy; 2020 デイトラ All rights reserved.</div>
+            <!-- © ⇦ 特殊文字がある場合は&copy; など、絶対参照にすると文字化けする心配をなくせる-->
+        </div>
+    </footer>
+
+    <div class="to-top"><a href="#"><img src="./img/totop@2x.png" alt="The Company"></a></div>
+    <!-- トップへ、戻るボタンはフッターの外へ、どのセクションでも画面上にあるようにしておきたい -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--jqueryの取り込み-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><!--scriptはbodyタグのとじタグの直前におく-->
+    <script src="js/wow.min.js"></script><!--自分のjsに上書きする作りになるのでその上に追加する-->
+    <script src="js/script.js"></script>
+</body>
+</html>
